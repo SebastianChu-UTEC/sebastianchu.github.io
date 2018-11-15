@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(img/BG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+.nav {
+    position: fixed;
+    top: 30px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100px;
+}
+
+
+.menu {
+    float: right;
+    line-height: 40px;
+    margin: 0 6em;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+ul li:nth-child(3) a {
+    color: #B8B8B8;
+    border: 1px solid #B8B8B8;
+    padding: 10px 20px;
+}
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header h1 {
+    color: #FFF;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: #FFF;
+    font-weight: lighter;
+    font-size: 28px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    text-align: center;
+}
+
+.header1 h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.header1 p {
+    color: #FFF;
+    font-weight: lighter;
+    font-size: 22px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    text-align: center;
+}
+
+.header2 h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.links {
+    color: #FFF;
+    font-weight: lighter;
+    font-size: 22px;
+
+}
+
+
+.links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: lighter;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+}
